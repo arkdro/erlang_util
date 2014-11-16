@@ -1,0 +1,11 @@
+{application, erl_util,
+ [
+  {description, "Misc erlang util"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
